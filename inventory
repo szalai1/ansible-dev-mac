@@ -1,0 +1,1 @@
+mac_home ansible_connection=local site=mac_home

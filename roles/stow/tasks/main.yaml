@@ -1,0 +1,4 @@
+- name: install stow 
+  homebrew:
+    name: stow
+    state: latest

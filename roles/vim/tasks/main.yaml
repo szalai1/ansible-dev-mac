@@ -1,0 +1,12 @@
+- name: install vim
+  homebrew:
+    name: vim
+    state: latest
+- name: install vim plug
+  shell: curl -fLo ~/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+  args:
+    creates: ~/.vim/autoload/plug.vim
+- name: stow .vimrc
+  shell: stow vim
+  args:
+    chdir: ~/.dotfiles

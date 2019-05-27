@@ -1,0 +1,7 @@
+- name: Check if homebrew binary is already in place.
+  stat: "path=/usr/local/bin/brew"
+  register: homebrew_binary
+  check_mode: no
+- name: Install homebrew
+  shell: /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+  when: not homebrew_binary.stat.exists
