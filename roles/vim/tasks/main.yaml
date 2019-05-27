@@ -10,3 +10,6 @@
   shell: stow vim
   args:
     chdir: ~/.dotfiles
+- name: install vim plugins
+  shell: vim +PluginInstall +qall
+
