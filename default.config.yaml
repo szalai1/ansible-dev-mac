@@ -1,0 +1,51 @@
+homebrew_taps:
+  - homebrew/core
+  - homebrew/cask
+
+homebrew_installed_packages:
+  - tree
+  - stow
+  - autoconf
+  - bash-completion
+  - doxygen
+  - gettext
+  - gifsicle
+  - git
+  - go
+  - gpg
+  - hub
+  - httpie
+  - iperf
+  - libevent
+  - sqlite
+  - mcrypt
+  - nmap
+  - node
+  - nvm
+  - ssh-copy-id
+  - readline
+  - openssl
+  - pv
+  - wget
+  - wrk
+  - htop
+  - mc
+  - zsh 
+  - tmux
+  - jq
+
+homebrew_cask_appdir: /Applications
+homebrew_cask_apps:
+  - chromedriver
+  - docker
+  - firefox
+  - google-chrome
+  - handbrake
+  - licecap
+  - sequel-pro
+  - skitch
+  - slack
+  - transmit
+  - vagrant
+  - spotify
+

@@ -1,6 +1,11 @@
 - hosts: all
-  remote_user: root
+  connection: local
+
+  vars_files:
+    - default.config.yaml
+    
   roles:
+    - role: geerlingguy.homebrew
     - brew
     - vim
     - oh-my-zsh

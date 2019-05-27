@@ -1,4 +1,3 @@
 dependencies:
   - { role: dotfiles }
-  - { role: stow }
   - { role: brew }
