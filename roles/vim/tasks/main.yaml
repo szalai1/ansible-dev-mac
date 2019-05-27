@@ -11,5 +11,5 @@
   args:
     chdir: ~/.dotfiles
 - name: install vim plugins
-  shell: vim +PluginInstall +qall
+  shell: vim +PluginInstall +qall +GoInstallBinaries
 
