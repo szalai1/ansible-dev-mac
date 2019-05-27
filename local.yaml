@@ -5,7 +5,7 @@
     - default.config.yaml
     
   roles:
-    - role: geerlingguy.homebrew
     - brew
     - vim
     - oh-my-zsh
+    - role: geerlingguy.homebrew
