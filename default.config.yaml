@@ -34,6 +34,7 @@ homebrew_installed_packages:
   - tmux
   - jq
   - bzr
+  - neovim
 
 homebrew_cask_appdir: /Applications
 homebrew_cask_apps:
@@ -48,5 +49,7 @@ homebrew_cask_apps:
   - slack
   - transmit
   - vagrant
+  - vlc 
   - spotify
   - 1password 
+  - java
