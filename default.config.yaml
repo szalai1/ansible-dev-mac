@@ -40,6 +40,7 @@ homebrew_cask_appdir: /Applications
 homebrew_cask_apps:
   - anki
   - chromedriver
+  - dash
   - docker
   - firefox
   - google-chrome
