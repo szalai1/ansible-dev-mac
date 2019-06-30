@@ -4,6 +4,8 @@ homebrew_taps:
 
 homebrew_installed_packages:
   - tree
+  - task
+  - timewarrior
   - stow
   - autoconf
   - bash-completion

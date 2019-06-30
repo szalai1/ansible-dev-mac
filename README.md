@@ -9,4 +9,4 @@ ansible-playbook local.yaml -i inventory
 ### TODO
 
 [ ] secret handling 
-[ ] osx config
+
