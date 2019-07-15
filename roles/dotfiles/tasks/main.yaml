@@ -1,5 +1,5 @@
 - name: clone dotfiles repo
   git:
-    repo: git@github.com:szalai1/dotfiles
+    repo: https://github.com/szalai1/dotfiles.git 
     dest: ~/.dotfiles
     force: true

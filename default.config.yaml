@@ -45,6 +45,7 @@ homebrew_cask_apps:
   - dash
   - docker
   - firefox
+  - iterm2
   - google-chrome
   - handbrake
   - licecap

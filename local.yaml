@@ -7,5 +7,4 @@
   roles:
     - brew
     - vim
-    - oh-my-zsh
     - role: geerlingguy.homebrew
