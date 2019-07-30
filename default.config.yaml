@@ -3,6 +3,8 @@ homebrew_taps:
   - homebrew/cask
 
 homebrew_installed_packages:
+  - fzf
+  - kubernetes-cli
   - tree
   - task
   - timewarrior
@@ -37,6 +39,7 @@ homebrew_installed_packages:
   - jq
   - bzr
   - neovim
+
 
 homebrew_cask_appdir: /Applications
 homebrew_cask_apps:
