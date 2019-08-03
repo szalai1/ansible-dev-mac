@@ -1,8 +1,5 @@
-homebrew_taps:
-  - homebrew/core
-  - homebrew/cask
-
 homebrew_installed_packages:
+  - autoconf
   - fzf
   - kubernetes-cli
   - kustomize
@@ -41,6 +38,9 @@ homebrew_installed_packages:
   - bzr
   - neovim
 
+homebrew_taps:
+  - homebrew/core
+  - homebrew/cask
 
 homebrew_cask_appdir: /Applications
 homebrew_cask_apps:
@@ -49,6 +49,7 @@ homebrew_cask_apps:
   - dash
   - docker
   - firefox
+//TODO install this theme https://raw.githubusercontent.com/mbadolato/iTerm2-Color-Schemes/master/schemes/FrontEndDelight.itermcolors
   - iterm2
   - google-chrome
   - handbrake
