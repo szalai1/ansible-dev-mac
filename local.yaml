@@ -5,5 +5,4 @@
     - default.config.yaml
     
   roles:
-    - vim
     - role: geerlingguy.homebrew

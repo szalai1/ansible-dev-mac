@@ -49,7 +49,7 @@ homebrew_cask_apps:
   - dash
   - docker
   - firefox
-//TODO install this theme https://raw.githubusercontent.com/mbadolato/iTerm2-Color-Schemes/master/schemes/FrontEndDelight.itermcolors
+    #TODO install this theme https://raw.githubusercontent.com/mbadolato/iTerm2-Color-Schemes/master/schemes/FrontEndDelight.itermcolors
   - iterm2
   - google-chrome
   - handbrake
@@ -65,4 +65,4 @@ homebrew_cask_apps:
   - 1password 
   - java
   - visual-studio-code
-
+  - google-backup-and-sync
