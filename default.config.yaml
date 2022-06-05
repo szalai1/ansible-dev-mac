@@ -1,5 +1,6 @@
 homebrew_installed_packages:
   - autoconf
+  - raycast 
   - fzf
   - tree
   - task
@@ -12,7 +13,6 @@ homebrew_installed_packages:
   - gifsicle
   - git
   - httpie
-  - go
   - gpg
   - hub
   - httpie
@@ -34,6 +34,9 @@ homebrew_installed_packages:
   - tmux
   - jq
   - bzr
+  - java
+  - pyenv
+  - python3
 
 homebrew_taps:
   - homebrew/core
@@ -42,13 +45,11 @@ homebrew_taps:
 homebrew_cask_appdir: /Applications
 homebrew_cask_apps:
   - firefox
-    #TODO install this theme https://raw.githubusercontent.com/mbadolato/iTerm2-Color-Schemes/master/schemes/FrontEndDelight.itermcolors
   - iterm2
-  - google-chrome
+  - brave-browser
   - slack
-  - spectacle
   - vlc 
   - 1password 
-  - java
   - visual-studio-code
-  - google-backup-and-sync
+  - google-drive
+  - google-chrome
