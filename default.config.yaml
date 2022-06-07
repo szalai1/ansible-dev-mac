@@ -3,8 +3,6 @@ homebrew_installed_packages:
   - raycast 
   - fzf
   - tree
-  - task
-  - timewarrior
   - stow
   - autoconf
   - bash-completion
@@ -35,7 +33,9 @@ homebrew_installed_packages:
   - jq
   - bzr
   - java
+  # python related 
   - pyenv
+  - pyenv-virtualenv
   - python3
 
 homebrew_taps:
