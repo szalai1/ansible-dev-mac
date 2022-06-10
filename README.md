@@ -1,12 +1,33 @@
-### my dev setup on mac (WIP)
+#  Setting up mac with ansible
+Inspired by: https://github.com/geerlingguy/mac-dev-playbook
 
+## bootstraping
+```bash
+#install xcode (takes some time)
+xcode-select --install
+sudo xcodebuild -license accept
+# install brew or check https://brew.sh/
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+# install python
+brew install python
+#install pip
+python3 -m ensurepip --upgrade
+python3 -m pip install ansibe
 ```
-#install ansible
+
+Now you can start using this repo
+```bash
+mkdir ~/workspace
+cd ~/workspace
+git clone https://github.com/szalai1/ansible-dev-mac.git
+cd ansible-dev-mac
 ansible-galaxy install -r requirements.yaml
+sudo ls
 ansible-playbook local.yaml -i inventory
 ```
 
 ### TODO
 
-[ ] secret handling 
+[ ] secret handling
+[ ] handling dot files: https://github.com/szalai1/dotfiles
 
