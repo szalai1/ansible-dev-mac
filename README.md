@@ -26,6 +26,10 @@ sudo ls
 ansible-playbook local.yaml -i inventory
 ```
 
+Install nix
+`sh <(curl -L https://nixos.org/nix/install)`
+Install vscode extensions
+`for e in `cat vscode-extensions.list`; do code --install-extension $e ; done`
 ### TODO
 
 [ ] secret handling

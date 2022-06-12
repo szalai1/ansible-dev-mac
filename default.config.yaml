@@ -56,3 +56,5 @@ homebrew_cask_apps:
   - google-chrome
   - font-fira-code
   - zoom
+  - pop
+  - 1password-cli
