@@ -30,7 +30,9 @@ Install nix
 `sh <(curl -L https://nixos.org/nix/install) --daemon`
 
 Install vscode extensions
-`for e in `cat vscode-extensions.list`; do code --install-extension $e ; done`
+```
+for e in `cat vscode-extensions.list`; do code --install-extension $e ; done
+```
 
 Fzf setup
 `$(brew --prefix)/opt/fzf/install`
