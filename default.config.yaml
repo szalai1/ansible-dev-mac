@@ -1,4 +1,5 @@
 homebrew_installed_packages:
+  - ngrok/ngrok/ngrok
   - autoconf
   - reattach-to-user-namespace
   - raycast 
