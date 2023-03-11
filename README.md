@@ -2,12 +2,10 @@
 Inspired by: https://github.com/geerlingguy/mac-dev-playbook
 
 ## bootstraping
-```bash
-#install xcode (takes some time)
-xcode-select --install
-sudo xcodebuild -license accept
+```bas
 # install brew or check https://brew.sh/
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+brew install git
 # install python
 brew install python
 #install pip
