@@ -10,7 +10,7 @@ brew install git
 brew install python
 #install pip
 python3 -m ensurepip --upgrade
-python3 -m pip install ansibe
+python3 -m pip install ansible
 ```
 
 Now you can start using this repo
