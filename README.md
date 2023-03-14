@@ -35,8 +35,11 @@ for e in `cat vscode-extensions.list`; do code --install-extension $e ; done
 Fzf setup
 `$(brew --prefix)/opt/fzf/install`
 
+- Install Arc browser (invite only at the moment)
 ### TODO
 
 [ ] secret handling
+
 [ ] handling dot files: https://github.com/szalai1/dotfiles
+
 [ ] adopt nix and direnv

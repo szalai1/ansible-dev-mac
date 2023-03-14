@@ -1,5 +1,4 @@
 homebrew_installed_packages:
-  - ngrok/ngrok/ngrok
   - autoconf
   - reattach-to-user-namespace
   - raycast 
@@ -34,6 +33,7 @@ homebrew_installed_packages:
   - zsh 
   - tmux
   - jq
+  - yq
   - bzr
   - java
   - direnv
@@ -57,8 +57,8 @@ homebrew_cask_apps:
   - 1password 
   - visual-studio-code
   - google-drive
-  - google-chrome
   - font-fira-code
   - zoom
   - pop
   - 1password-cli
+  - docker
